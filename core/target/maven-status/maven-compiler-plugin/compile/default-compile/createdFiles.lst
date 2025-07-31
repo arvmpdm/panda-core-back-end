@@ -1,0 +1,5 @@
+com\panda\core\config\AppConfig.class
+com\panda\core\controller\MessageController.class
+com\panda\core\model\Message.class
+com\panda\core\App.class
+com\panda\core\config\AppInitializer.class
