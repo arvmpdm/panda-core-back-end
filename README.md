@@ -1,4 +1,4 @@
 # Configuracion del servidor : 
-* JDK
-*  Wildfly
+* JDK: 11 
+*  Wildfly: 24.0.0 Final
 *  Maven
