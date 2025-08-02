@@ -2,6 +2,8 @@ package com.panda.core.controller;
 
 
 
+import com.panda.core.model.Message;
+
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
@@ -13,9 +15,12 @@ public class MessageController {
     
   
 	@GET 
-	@Produces(MediaType.TEXT_PLAIN)
-	public String saludar() {
+	@Produces(MediaType.APPLICATION_JSON)
+	public Message saludar() {
+		Message m =new Message();
+		m.setContent("Mensaje");
 		
-		return "OK";
+		
+		return m;
 	}
 }

@@ -23,7 +23,7 @@
   
 
 
-    <dependencies>
+    <dependencies> 
 		<dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-web-api</artifactId>
