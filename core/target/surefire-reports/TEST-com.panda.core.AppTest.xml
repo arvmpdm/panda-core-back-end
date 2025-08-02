@@ -1,60 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.panda.core.AppTest" time="0.012" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.panda.core.AppTest" time="0.007" tests="0" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\xmk0880\Documents\panda\panda-core-back-end\core\target\test-classes;C:\Users\xmk0880\Documents\panda\panda-core-back-end\core\target\classes;C:\Users\xmk0880\.m2\repository\org\springframework\spring-core\5.3.30\spring-core-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-jcl\5.3.30\spring-jcl-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-webmvc\5.3.30\spring-webmvc-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-aop\5.3.30\spring-aop-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-beans\5.3.30\spring-beans-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-context\5.3.30\spring-context-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-expression\5.3.30\spring-expression-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-web\5.3.30\spring-web-5.3.30.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\xmk0880\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\xmk0880\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/test-classes:/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/classes:/Users/Panda/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/9.1.0/jakarta.jakartaee-web-api-9.1.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="America/Mexico_City"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="MX"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="419"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\xmk0880\AppData\Local\Temp\surefire16433752385840552943\surefirebooter-20250730190614092_3.jar C:\Users\xmk0880\AppData\Local\Temp\surefire16433752385840552943 2025-07-30T19-06-13_811-jvmRun1 surefire-20250730190614092_1tmp surefire_0-20250730190614092_2tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\xmk0880\Documents\panda\panda-core-back-end\core\target\test-classes;C:\Users\xmk0880\Documents\panda\panda-core-back-end\core\target\classes;C:\Users\xmk0880\.m2\repository\org\springframework\spring-core\5.3.30\spring-core-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-jcl\5.3.30\spring-jcl-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-webmvc\5.3.30\spring-webmvc-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-aop\5.3.30\spring-aop-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-beans\5.3.30\spring-beans-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-context\5.3.30\spring-context-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-expression\5.3.30\spring-expression-5.3.30.jar;C:\Users\xmk0880\.m2\repository\org\springframework\spring-web\5.3.30\spring-web-5.3.30.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\xmk0880\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\xmk0880\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\xmk0880\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="sun.boot.library.path" value="/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/surefire/surefirebooter-20250802000335712_3.jar /Users/Panda/Documents/GitHub/panda-core-back-end/core/target/surefire 2025-08-02T00-03-35_646-jvmRun1 surefire-20250802000335712_1tmp surefire_0-20250802000335712_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/test-classes:/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/classes:/Users/Panda/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/9.1.0/jakarta.jakartaee-web-api-9.1.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\xmk0880"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="/Users/Panda"/>
+    <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-07-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.home" value="/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core"/>
     <property name="style.color" value="always"/>
-    <property name="basedir" value="C:\Users\xmk0880\Documents\panda\panda-core-back-end\core"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.82.0.21-CA-macos-aarch64"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\xmk0880\AppData\Local\Temp\surefire16433752385840552943\surefirebooter-20250730190614092_3.jar"/>
-    <property name="user.script" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core/target/surefire/surefirebooter-20250802000335712_3.jar"/>
+    <property name="sun.boot.class.path" value="/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/resources.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/rt.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/jsse.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/jce.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/charsets.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/jfr.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/cat.jar:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
-    <property name="user.name" value="xmk0880"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\xmk0880\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\xmk0880\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\xmk0880\Documents\panda\panda-core-back-end\core"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_432-b06"/>
+    <property name="user.name" value="Panda"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.endorsed.dirs" value="/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Panda/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/t9/m8y3b43j2jv0tl91v3zvxwzr0000gq/T/"/>
+    <property name="java.version" value="1.8.0_432"/>
+    <property name="user.dir" value="/Users/Panda/Documents/GitHub/panda-core-back-end/core"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/xmk0880/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin/server;C:/Users/xmk0880/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\xmk0880\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\xmk0880\AppData\Local\Programs\Python\Launcher\;C:\Users\xmk0880\AppData\Local\Microsoft\WindowsApps;C:\Users\xmk0880\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\xmk0880\AppData\Roaming\npm;C:\Users\xmk0880\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Java\jdk-17\bin;C:\apache-ant-1.8.2\bin;C:\maven\apache-maven-3.9.9\bin;;C:\Windows\system32;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/Panda/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.432-b06"/>
+    <property name="java.specification.maintenance.version" value="6"/>
+    <property name="java.ext.dirs" value="/Users/Panda/Library/Java/Extensions:/Users/Panda/.sdkman/candidates/java/8.0.432-zulu/zulu-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
 </testsuite>
