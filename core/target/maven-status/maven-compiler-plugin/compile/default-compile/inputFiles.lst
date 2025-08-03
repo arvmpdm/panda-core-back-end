@@ -1,4 +1,11 @@
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/util/Mensages.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/dto/Persona.java
 /Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/model/Message.java
 /Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/App.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/util/Util.java
 /Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/RestAplicacion.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/LoginController.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/dto/LoginModel.java
 /Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/MessageController.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/util/UtilMessage.java
+/Users/Panda/Documents/GitHub/panda-core-back-end/core/src/main/java/com/panda/core/controller/PersonaController.java
