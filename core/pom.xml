@@ -31,6 +31,28 @@
             <scope>provided</scope>
         </dependency>
 		
+		 <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.0.0</version> <!-- Última versión al 2023 -->
+        <scope>provided</scope> <!-- Ya incluido en WildFly -->
+    </dependency>
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.1.0.Final</version> <!-- Compatible con Jakarta EE 10 -->
+        <scope>provided</scope> <!-- Ya incluido en WildFly -->
+    </dependency>
+    
+    <dependency>
+        <groupId>jakarta.enterprise</groupId>
+        <artifactId>jakarta.enterprise.cdi-api</artifactId>
+        <version>4.0.1</version>
+        <scope>provided</scope>
+    </dependency>
+    
+    
+    
             </dependencies>
 
 

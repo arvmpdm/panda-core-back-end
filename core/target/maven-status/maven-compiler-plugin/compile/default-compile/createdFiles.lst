@@ -1,4 +1,4 @@
 com/panda/core/App.class
+com/panda/core/controller/MessageController.class
 com/panda/core/model/Message.class
 com/panda/core/controller/RestAplicacion.class
-com/panda/core/controller/MessageController.class
