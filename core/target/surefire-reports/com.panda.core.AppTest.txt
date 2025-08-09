@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.panda.core.AppTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.panda.core.AppTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.panda.core.AppTest

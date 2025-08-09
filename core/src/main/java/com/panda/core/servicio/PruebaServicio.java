@@ -24,8 +24,14 @@ public class PruebaServicio extends PruebasRepCrud<Pruebas>{
 	}
 	
 	public List<Pruebas> getAllPruebas(){
-		Query query=em.createQuery("SELECT p FROM pruebas p");
+		Query query=em.createQuery("SELECT p FROM Pruebas p");
 		return query.getResultList();
+	}
+
+	@Override
+	public Pruebas update(Pruebas entity) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 
