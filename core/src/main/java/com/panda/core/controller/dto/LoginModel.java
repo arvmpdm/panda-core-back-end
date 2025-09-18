@@ -4,13 +4,13 @@ import com.panda.core.util.Mensages;
 
 public class LoginModel extends Mensages {
 	
-	public String userName;
+	public String username;
 	public String password;
 	public String getUserName() {
-		return userName;
+		return username;
 	}
 	public void setUserName(String userName) {
-		this.userName = userName;
+		this.username = userName;
 	}
 	public String getPassword() {
 		return password;
